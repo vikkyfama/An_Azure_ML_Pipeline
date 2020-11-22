@@ -48,3 +48,4 @@ The Hyperdrive Config Model had an Accuracy of 0.9153, while the AutoML Model ha
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
+![alt text](https://github.com/vikkyfama/An_Azure_ML_Pipeline/blob/toria/ClusterCleanUp.png)

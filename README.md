@@ -7,9 +7,9 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
-
+This dataset contains data about Bank Marketing which is aimed at identifying potential customers willing to subscribe to a fixed term deposit with a financial institution. We seek to predict if clients will or will not subscribe to a fixed term deposit with a given financial institution.
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
-
+The best performing model was a MaxAbsScaler, XGBoostClassifier with an accuracy value of 0.91737. This was achieved by running an Automl config with specified values for it's parameters.
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 

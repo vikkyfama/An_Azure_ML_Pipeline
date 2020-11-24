@@ -12,7 +12,7 @@ This dataset contains data about Bank Marketing which is aimed at identifying po
 The best performing model was MaxAbsScaler, XGBoostClassifier at an accuracy value of 0.91737. This was achieved by running an AutoML config with random values for various parameters.
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
-![alt text](https://github.com/vikkyfama/An_Azure_ML_Pipeline/blob/toria/Scikit-Learn%20Pipeline%20Architecture.png)
+![alt text](https://github.com/vikkyfama/An_Azure_ML_Pipeline/blob/toria/Sklearn%20doc.png)
 The scikit-learn pipeline consisted of a data which was retrieved from a .csv file and then converted to a tabular dataset using the TabularDatasetFactory. Because the data remains in its existing location, no extra storage cost was incured and the integrity of your data sources was secured.
 The Parameter sampling method of choice was the RandomParameterSampler with the following Hyperparameter tuning:
 1. The "learning rate" was specified with a normal(10, 3)which returns a real value that's normally distributed with mean 10 and standard deviation 3.
